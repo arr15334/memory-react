@@ -141,7 +141,7 @@ class Card extends React.Component {
   }
   render(){
     return (
-      <div className={"card" + (!this.props.hidden ? ' opened' : '') + (this.props.found ? ' found' : '')} onClick={() =>
+      <div className={"card" + (!this.props.hidden ? ' flipped' : '') + (this.props.found ? ' found' : '')} onClick={() =>
             //console.log(this.props)
             this.clicked(this.props.band)
           }>
