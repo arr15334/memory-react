@@ -161,7 +161,3 @@ ReactDOM.render(
   <Game />,
   document.getElementById('app')
 )
-
-console.log('Hola Mundo');
-console.log('hot reload1');
-console.log('hot reload2');
